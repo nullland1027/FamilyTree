@@ -1,0 +1,94 @@
+# ===========================
+# 依赖 / Dependencies
+# ===========================
+node_modules/
+.pnp
+.pnp.js
+
+# ===========================
+# 构建产物 / Build Output
+# ===========================
+dist/
+dist-ssr/
+build/
+out/
+*.local
+
+# ===========================
+# 日志 / Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===========================
+# 环境变量 / Environment Variables
+# ===========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ===========================
+# 编辑器 / Editor & IDE
+# ===========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+.cursor/
+
+# ===========================
+# macOS 系统文件
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ===========================
+# TypeScript 缓存
+# ===========================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ===========================
+# 测试覆盖率 / Test Coverage
+# ===========================
+coverage/
+.nyc_output/
+
+# ===========================
+# 缓存 / Cache
+# ===========================
+.cache/
+.parcel-cache/
+.vite/
+.eslintcache
+.stylelintcache
+
+# ===========================
+# AI 工具配置（可选保留）
+# ===========================
+.claude/
+.aider*
+
+# ===========================
+# 项目数据文件 / App Data
+# ===========================
+family-tree.json
